@@ -1,0 +1,25 @@
+.box {
+    width: 100px;
+    height: 100px;
+    font-size: x-large;
+    outline: none;
+    border: none;
+    transition: none;
+}
+
+.box:hover, .box:focus {
+    outline: none;
+    transition: none;
+}
+
+.lastBoxO, .lastBoxO:hover, .boxX:hover  {
+    border: 5px solid #FFC107;
+}
+
+.lastBoxX, .lastBoxX:hover, .boxO:hover {
+    border: 5px solid #17A2B8;
+}
+
+.notPlayable{
+    cursor: auto;
+}
